@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  background-color: #dbdbdb;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.about {
+
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.about {
+  margin-left: 160px;
+  padding: 50px 10px 15px 50px;
+  font-family: "Lucida Console";
+}
+
+.me {
+  margin-left: 160px;
+  padding: 50px 10px 15px 50px;
+  display: flex;
+}
+
+.name {
+  margin-left: 160px;
+  padding: 20px 10px 0px 50px;
+}
+
+.about ul li {
+  padding: 6px 8px 15px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.about a {
+  display: inline;
+  padding: 25px;
+  float: left;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+
+.sidebar a {
+  padding: 6px 8px 15px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
 }
