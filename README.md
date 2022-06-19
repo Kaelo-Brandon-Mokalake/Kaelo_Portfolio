@@ -1,6 +1,6 @@
 # A Portfolio
 
-This project is an introductory portfolio hosted on [Netlify](Netlify.com).
+This project is an introductory portfolio hosted on [GitHub](github.com).
 
 ## Deployed version
 
